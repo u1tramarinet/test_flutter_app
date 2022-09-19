@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:test_flutter_app/viewmodel/MyHomeViewModel.dart';
+import 'package:test_flutter_app/counter/viewmodel/MyHomeViewModel.dart';
 
 class MyHomePage extends ConsumerWidget {
   const MyHomePage({super.key, required this.title});

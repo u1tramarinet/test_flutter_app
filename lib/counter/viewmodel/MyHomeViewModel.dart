@@ -1,6 +1,6 @@
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:test_flutter_app/model/MyHomeRepository.dart';
+import 'package:test_flutter_app/counter/model/MyHomeRepository.dart';
 
 final myHomeViewModelProvider = ChangeNotifierProvider((ref) => MyHomeViewModel(repository: ref.read(myHomeRepositoryProvider)));
 
